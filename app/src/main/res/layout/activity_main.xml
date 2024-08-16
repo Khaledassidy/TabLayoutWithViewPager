@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--   2awal she lezm deef tablayout -->
+<!--    bas defna tablayout mnshof eno 7atalk 3 tabs bshakl efterade jowa tablayout iza la7zna fe 3osnour esmo tabitem tablayout feha majmo3a mn tabitems mne2dar ne3teberha fena ne3teberha she byeshbha linear layout horizantal laken feha 5asa2es zyede 3ashen nmayez tab feha she masln indecator l mo2sher le b2sher 3ala 3ala aye tab enta mawjoud 2aw da8et feha malsn loun nous loun l background lama tekbous 3ala wa7de mn tab fe loun l background lama tsheel da8ta mn 3ala tab feha kteer sha8let yemken enta ma badak l indecator ykoun 5at badak yeh ykoun sehm z8eer ya3ne feek enta t8ayer metl ma badak bel tabs                  -->
+<!--    mn shof tab layout heye btsof l 2eshya le b2lab bshakl horizanatl w le b2alab bekoun she esmo tab item heye tabs le btkoun mawjoude  -->
+<!--    hala2 fe sha8le lezm nefhama momken tshofa b sorten eno testa5dema ka 3anaser sebte keef ya3ne b application l asme2 contact  shofna 4 tabet hawde sebte b ma3na eno 5alas mesh 7a tet8ayar bshakl baramaje ya3ne hay tabet sebte tab lal asme2 tab lal etesal tab lal add to conatct bas be27yenan bte7tej eno tabs hay tkoun generic 2aw tkoun bene2an 3ala code barmaje ya3ne malsn b application google play 3ebara 3an categories 3an anwe3 l applications law google paly dafet nou3 jdeed mn l applications la7 tet7adas tabs w yendaf tab jdeede momken ta3mel application mat3am fa l 3anser l houn tkoun 3ebara 3an categories taba3 l mat3am fa l 3anser le btkoun houn 3ebara 3an categories taba3 l mat3am fa tet8ayar barmajeyan l fekra le bade 2ola tabs hay momken tkoun 3adada sebet 2aw 3adad ykoun mota8ayer  sebet ya3ne mn l xml bekoun sebet bas law keen mot8ayer bado ykoun bene2an 3ala masfofe momken tjeba mn database 2aw server t7ot l bayanet le feha b addapter w defa 3ala tab layout 2aw 3ala l viewpager metl 7a nshofa-->
+<!--    l mo5tasar eno l 3anser le bel tablayout momken tkoun sebte n3arefa mn l xml 2aw generic tkoun b masfoufe w ne7na ndefa mn l code l barmaje 3an tare2  addapter      -->
+<!--    hala2 defna tablayout hala2 bade deef View pager-->
+<!--    bjeeb l view pager b7otot 2awal she w berbto bel 3anaser  -->
+<!--    hala2 sar 3ande tablayout w viewpager -->
+<!--    hala2 5alsna 3ashen nest5dem haw bel code menrou7 3ala l code-->
+<!--         //hala2 ba3d ma 3mlt inflate lal layout sort be2dar tablayout,viewpager be2dar et3emal ma3oun tabe3e tablayout ela 5asa2es fene 8ayeroun metl tabbackgroud fene 8ayer l background taba3 l tablayout fe 3ande tabindecator mo2sher taba3 tab fene 8ayro le beloun l puprple tab gravity fene 8ayera 5aleha 3ala left 2aw 3ala right bel ceneter le bade yeh,fe 3ande tabmode badak teh fixed 2aw scrollable sho ya3ne fixed ya3ne l 3anser le de5el tablayout 7a tkoun sebte w ma7soura bede5el 3ard shshe b ma3na eno a7yenan bekoun 3ande majmo3a mn tabs ktera 10 2aw 20 masln tabs hawde btetjewaz l 3ard taba3 shshe fa hal badak tablayout fixed wala scrollable  fixed ya3ne bado yo7serlak kol tabs b 3ard shshe k2no bya3mloun weight w be5elehoun b 3ard shshe w momken l 20 tab le 3andak fehoun kalemet kbere  fa lama yed8atoun ma3 ba3d ma ybyen kol l kelme 2aw bt5leha scrollable metl l scroll view horizntal fa fe ya3mel scroll yamen w shmel ya3ne yezhro bas 3 w yseer bas l user ya3mel scroll ybyen be2e l 3anser fe kamen 5aseye 3ana kamen esma tabtextcolor bt7adedlak loun nous taba3 l tab feek t8ayro metl ma badak,fe kamen tabselectedtextcolor ya3ne tab bas tkoun 3lyha sho ykoun lawn nous w feeee kteer 5asa2es kamen tabripplecolor l color lama enta ta3mel press 3ala tab m3yan -->
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/tablayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Monday" />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tuesday" />-->
+
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Wednesday" />-->
+
+<!--     </com.google.android.material.tabs.TabLayout>-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/tablayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
